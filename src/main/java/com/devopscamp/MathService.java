@@ -1,5 +1,6 @@
 package com.devopscamp;
 
+
 public class MathService {
 		public int multiply(int firstNumber, int secondNumber) {
 
@@ -7,6 +8,10 @@ public class MathService {
 		}
 
 		public int subtract(int firstNumber, int secondNumber) {
+				Integer myInt = null;
+				Integer yourInt = myInt * 2;
 				return firstNumber - secondNumber;
+
 		}
+
 }
